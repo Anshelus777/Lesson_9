@@ -233,10 +233,9 @@ body {
 	left: 30%;
 	z-index: 9;
 }
-.header__sub-list2 li:last-of-type .light {
-	display: inline-block;
+.header__sub-list2 li:last-of-type:hover .light {
+	display: block;
 }
-
 .light {
 	height: 0px;
 	width: 0px;
